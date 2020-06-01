@@ -125,6 +125,8 @@ def gradient_check_n(parameters, gradients, X, Y, epsilon = 1e-7):
         # Compute J_plus[i]. Inputs: "parameters_values, epsilon". Output = "J_plus[i]".
         # "_" is used because the function you have to outputs two parameters but we only care about the first one
         ### START CODE HERE ### (approx. 3 lines)
+        # MATH: the change in theta[i] with respect to the function J
+        # where theta is the ith set of parameters
         thetaplus = np.copy(parameters_values)                                              # Step 1
         thetaplus[i][0] = thetaplus[i][0] + epsilon                                         # Step 2
         J_plus[i], _ = forward_propagation_n(X, Y, vector_to_dictionary(thetaplus))         # Step 3

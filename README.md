@@ -4,4 +4,5 @@ This repository servers as my journal of studying Deep Learning instead of a Dee
 Note: "Improving Deep Neural Networks" is part of the deep learning specialization provided by deeplearning.ai on Coursera. The copy right of the coding materials belongs to deeplearning.ai.
 
 ## Content
-### W1 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+### W1 - Hyperparameter tuning, Regularization and Optimization
+### W2 - Optimization Methods
