@@ -6,3 +6,4 @@ Note: "Improving Deep Neural Networks" is part of the deep learning specializati
 ## Content
 ### W1 - Hyperparameter tuning, Regularization and Optimization
 ### W2 - Optimization Methods
+### W3 - Build Neural Networks with TensorFlow
